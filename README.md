@@ -9,7 +9,7 @@ In the project, different python notebooks go as follows:
 3. Deep Learning using Convolutional Neural Networks for predicting Genre from poster of movies
 4. Deep Learning for genre prediction using textual features, Model used: word2vec
 
-Conclusion of the analysis: The Deep learning based model on textual plot of movie gives an accuracy of upto 85% for multi lable classification problem. Non-deep Conventional machine learning models on textual plot are less accurate (with precision value=0.48893866021 and recall value=0.521633554084). In addition to that, CNN based model on Poster images is lesser accurate because of less dataset(1300 images only) and constrained computational powers (personal computer of 4GB RAM).
+Conclusion of the analysis: The Deep learning based model on textual plot of movie gives an accuracy of upto 85% for multi lable classification problem. Non-deep Conventional machine learning models on textual plot are less accurate (with precision value=0.48893866021 and recall value=0.521633554084). In addition to that, CNN based model on Poster images is lesser accurate(with precision value=0.492592592593 and recall value=0.491543209877) because of a small dataset(1300 images only) and constrained computational powers (personal computer of 4GB RAM).
 
 Important note: I have used camelCase for all variable names and '_' for connecting to words in names of function, for eg: get_poster
 
