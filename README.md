@@ -3,7 +3,7 @@ This repository contains one of my projects in Deep Learning and Machine learnin
 The project is based on problem of multi label classfication and it's target is to predict genres of a given movie under supervised conditions, where there are two types of input features - (i)textual plots of movie and (ii)poster of movie.
 The first notebook contains code(along with description) of how data for movies with their posters is collected from tmdb website using tmdbsimple api. Next three notebooks contain different models for predicting genre. In each model, for performance evaluation, I have used Precision-Recall metric.
 
-In the project, different python notebooks go as follows:
+In the project, different python notebooks go as follows: (a total of 4 python notebooks, and other files are related storage files)
 1. Data Crawler-Scrapper and Dataset builder
 2. Non-Deep Conventional Machine Learning Models with movie plots(textual data), Models used: SVM and Naive Bayes
 3. Deep Learning using Convolutional Neural Networks for predicting Genre from poster of movies
